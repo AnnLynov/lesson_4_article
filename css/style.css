@@ -1,0 +1,99 @@
+@import url("null.css");
+@import url(https://fonts.googleapis.com/css?family=Murecho:regular,600,700&display=wrap);
+
+@font-face {
+   font-family: 'Glory';
+   src: url("../fonts/Glory-Regular.woff2") format("woff2"), url("../fonts/Glory-Regular.woff") format("woff");
+   font-weight: 400;
+   font-style: normal;
+   font-weight: normal;
+}
+@font-face {
+   font-family: 'Glory';
+   src: url("../fonts/Glory-SemiBold.woff2") format("woff2"), url("../fonts/Glory-SemiBold.woff") format("woff");
+   font-weight: 600;
+   font-style: normal;
+   font-weight: normal;
+}
+@font-face {
+	font-family: "Glory";
+	src: url("../fonts/Glory-Bold.woff2") format("woff2"), url("../fonts/Glory-Bold.woff") format("woff");
+	font-weight: 700;
+	font-style: normal;
+	font-display: swap;
+}
+body {
+   font-family: "Rubik+Beastly", sans-serif;
+   font-weight: 400;
+   font-style: normal;
+   text-align: left;
+   text-align: justify;
+}
+h1,
+h2 {
+   text-align: center;
+   font-weight: 700;
+   font-size: 30px;
+   line-height: 2;
+   }
+h1 {
+   line-height: 3;
+   text-decoration: underline;
+   text-shadow: 5px 5px 10px grey;
+}
+h3 {
+   font-family: "Glory", sans-serif;
+   font-weight: 700;
+   line-height: 3;
+   text-indent: 50px;
+}
+div {   
+   line-height: 1.5;
+}
+span {
+   color: red;
+   text-decoration: underline;
+}
+li {
+   text-align: center;
+   word-spacing: 10px;
+   text-transform: uppercase;
+   line-height: 2;
+   font-weight: 700;
+   color: fuchsia;
+}
+.info {
+   text-indent: 40px;
+   color: navy;
+   font-weight: 600;
+   line-height: 1.4;
+}
+.light {
+   font-family: "Glory", sans-serif;
+   font-weight: 600;
+}
+.temperature {
+   color: slategray;
+}
+.watering {
+   font-family: "Murecho", sans-serif;
+   font-weight: 700;
+}
+.humidity {
+   color: brown;
+}
+.soil {
+   color: darkblue;
+   font-style: italic;
+}
+.fertilizer {
+   color: darkolivegreen;
+}
+.bloom {
+   color: darkred;
+   line-height: 2;
+   font-weight: 700;
+}
+li > ul > li{
+   color: darkviolet;
+}
